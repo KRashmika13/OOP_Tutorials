@@ -8,7 +8,7 @@ public class Main {
         Runnable myRunnable = new MyRunnable();
         Thread thread = new Thread(myRunnable);
         thread.start();
-        
+
 
     }
 
